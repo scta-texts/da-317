@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../tools/schema/lombardpress-schema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I.2: Utrum de anima possit esse scientia</title>
+        <author>Anonymus</author>
+        <editor>Michael Stenskjær Christensen</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.1-dev">
+          <date when="2018-02-17">February 17, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Michael Stenskjær Christensen</publisher>
+        <authority>
+          <ref target="http://representationandreality.gu.se">
+            Representation and Reality: Historical and Contemporary Perspectives on the Aristotelian Tradition
+          </ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref
+          target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative
+          Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V">
+            Vatican, Biblioteca Apostolica Vaticana, Vaticanus Latinus 2170, ff.
+            5v--25v
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+      <schemaRef n="lbp-critical-1.0.0"
+                 url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/1.0/critical.rng">
+      </schemaRef>
+      <editorialDecl>
+        <p>
+          Encoding of this text has followed the recommendations of the
+          LombardPress 1.0.0 guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-02-17" status="draft" n="0.0.1-dev">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la" type="critical">
+    <front>
+      <div xml:id="starts-on">
+        <pb n="6-v" ed="#V"/><cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="da-317-l1q2">
+        <head>
+          <supplied ana="#meta-text">
+            I.1: Utrum de anima possit esse scientia
+          </supplied>
+        </head>
+        <p xml:id="da-317-l1q2-tyz76n">
+          Consequenter quaeritur utrum de anima possit esse scientia.
+        </p>
+        <div ana="#rationes-principales" xml:id="da-317-l1q2-4lxyxv">
+          <p xml:id="da-317-l1q2-uk9g3a" ana="#structure-head">
+            Et videtur quod non.
+          </p>
+          <p xml:id="da-317-l1q2-rlxz81">
+            Et hoc praecipue de intellectiva. De illo quod nullo modo est
+            sensibile non potest haberi scientia, quia
+            <cit>
+              <ref>
+                per <name ref="#Aristotle">Philosophum</name>
+                tertio huius
+              </ref>
+              <quote type="paraphrase">
+                <app>
+                  <lem type="correction-addition"  wit="#V">
+                    <add place="margin-right">intellectus</add>
+                  </lem>
+                </app>
+                intelligit per phantasmata
+              </quote>
+              <bibl>DA III.7 ???</bibl>
+            </cit>
+            ; fantasmata <add place="above-line">autem</add> fiunt per sensum;
+            anima intellectiva nullo modo est sensibilis, quia nec per se, quia
+            non est quid corporeum, nec per suas operationes, quia nullus sensus
+            <app>
+              <lem type="correction-substitution"  wit="#V">
+                <subst>
+                  <del>participit</del>
+                  <add>percipit</add>
+                </subst>
+              </lem>
+            </app>
+            intelligere quod est operatio intellectus; ergo et cetera.
+          </p>
+          <p xml:id="da-317-l1q2-7d9z5b">
+            Item hoc <unclear>sop()te</unclear>, corruptibilium non est scientia
+            quia scientia est habitus intransmutabilis et ideo non potest <add
+            place="above-line">esse</add> corruptibilium; anima autem est
+            transmutabilis quia corrumpitur ad corruptionem corporis, scilicet
+            vegetabilia et sensitiva; ergo et cetera.
+          </p>
+          <p xml:id="da-317-l1q2-pnc1s1">
+            Item inter sciens et scitum oportet esse aliquam diversitatem, cuius
+            probatio est quia sunt talia idem autem non refertur ad se ipsum,
+            sed <del rend="punctuation">d</del> si de anima esset scientia <del
+            rend="punctuation">oportet esse s</del> tunc non esset diversitas
+            inter sciens et scitum, immo idem esset sciens et scitum, quia anima
+            sciret se ipsam; ergo de anima non posset esse aliqua scientia.
+          </p>
+        </div>
+        <div ana="#rationes-principales" xml:id="da-317-l1q2-fqkcxy">
+          <p xml:id="da-317-l1q2-o2drri">
+            Oppositum patet per <name ref="#Aristotle">Philosophum</name>. Patet
+            per <name ref="#Aristotle">Philosophum</name> qui nobis tradit
+            scientiam de anima.
+          </p>
+        </div>
+        <div ana="#determinatio" xml:id="da-317-l1q2-217pl7">
+          <p xml:id="da-317-l1q2-8mibov">
+            Ad hoc dicendum est quod diversimode contingit habere scientiam de
+            aliquo, large accipiendo scientiam vel cognitione qua aliquid certe
+            cognoscitur, scilicet per definitionem per divisionem, per
+            demonstrationem. Modo dicendum est quod esse illud quod habet quod
+            quid est sive essentiam quam intellectus potest apprehendere potest
+            cognosci, quia definitio ad hoc ordinatur quod indicet quod quid est
+            rei. Sed anima habet quod quid est sive essentiam, quia non est quid
+            <unclear>privatorium</unclear> neque
+            <unclear>significatorium</unclear>, quare de anima potest esse
+            scientia per definitionem.
+          </p>
+          <p xml:id="da-317-l1q2-or2hmi">
+            Item ad hoc quod fiat divisio sive scientia per divisionem de aliquo
+            exigitur quod habeat partes sub se contentas in quibus salvetur,
+            quia divisim salvatur in dividentibus et non exigitur quod <add
+            place="margin-right"><unclear>hic</unclear></add> quod habeat
+            partes, quia divisio est in partes; sed anima habet partes, scilicet
+            subiectivas e etiam potentiales, quare de anima est scientia per
+            divisionem.
+          </p>
+          <p xml:id="da-317-l1q2-rhju82">
+            Item neque ad habendum scientiam de aliquo per demonstrationem
+            exigitur quod habeat passiones quae de ipso habeant probari per
+            definitionem illius cuius sunt, quia quod est principium subiecti
+            est causa accidentium eius.
+          </p>
+          <p xml:id="da-317-l1q2-j5jzvk">
+            Et intelligendum est hoc de accidentibius propriis, sed anima habet
+            passiones quae de ipsa possunt probari per eius definitionem, quare
+            de ipsa potest esse scientia per demonstrationem, et sic de anima
+            potest haberi scientia istis stribus modis sciendi, qui traduntur in
+            logica, et isto modo tradit <name
+            ref="#Aristotle">Philosophus</name> scientiam de anima quia dedit
+            definitionem animae et divisit eam in partes integrales et
+            subiectivas et prtentiales, et probavit de ipsa passiones.
+          </p>
+          <p xml:id="da-317-l1q2-s0mxut">
+            Considerandum tamen est quod difficultas est in isto et in aliis
+            quantum intellectus consurgit in cognitione quod quid est, et
+            videtur esse altera istarum duarum viarum ad hoc intellectus <add
+            place="above-line"><unclear>cum</unclear></add> percipit quod ex
+            aliqua re procedunt operationes, tunc facit quadam coniecturationem
+            et videt inquolibet esse et in quod non et resolvit illa accidentia
+            <add place="margin-right">in illa</add> et quibus possunt procedere,
+            scilicet in illa principia ex quibus habet causari, et ideo, quia
+            coniecturat in quolibet huius accidentia et in quibus non et sic
+            devenit in cognitionem ipsius quod quid <supplied>est</supplied>,
+            ita quod ex virtute illius rei alias <unclear>innotescit</unclear>
+            genus et ex <unclear>diversitate</unclear> accipitur
+            <unclear>differentia</unclear>.
+          </p>
+          <p xml:id="da-317-l1q2-b47eph">
+            Est tamen intelligendum quod intellectus habet aliquem
+            <unclear>intellectum</unclear> essentialem qui non est intellectus
+            <pb ed="#V" n="7-r"/><cb ed="#V" n="a"/> accidentis, et hoc est quod
+            intellectus entis, quia sicut dicit
+            <cit>
+              <ref>
+                <name ref="#Avicenna">Avicenna</name>
+              </ref>
+              <quote>
+                intellectus entis <unclear>entis</unclear> in <gap
+                type="fenestra" extent="5"
+                unit="characters"/> est dubius.
+              </quote>
+              <bibl>???</bibl>
+            </cit>
+            et ideo, quia habet intellectum essentialem ex accidentibus, potest
+            devenire in cognitionem quod quid est ubi et illud oportet, ide est
+            quod habeat aliquem intellectum essentialem quia aliter esset
+            <unclear>abire</unclear> in <unclear>intellectu</unclear> sed quia
+            habet intellectum essentialem ex accidentibus in virtute ipsius quod
+            quid est, nec est mirum quia in naturalibus ita est <del
+            rend="punctuation">ita</del> quod accidens <del
+            rend="punctuation">in</del> virtute substantiae generat substantiam
+            sicut calidum quid agit in virtute ignis non solum generat calidum,
+            sed etiam ignem, et ideo simili modo ex cognitione accipiendo per
+            coniecturationem intellectus consurgit ad cognoscendum quod quid est.
+          </p>
+          <p xml:id="da-317-l1q2-nzs6l0">
+            Alia via est quia virtutes inter se
+            <app>
+              <lem type="correction-substitution"  wit="#V">
+                <subst>
+                  <del>seunt</del>
+                  <add>sunt</add>
+                </subst>
+              </lem>
+            </app>
+            <unclear>conexae</unclear> ita quod virtus inferior <unclear>eo ad
+            intiat feriorem et ei sub unumstrat</unclear> suum cognoscibile it
+            quod superior incipit ubi inferior dimitit, sicut sensata lubi et
+            reservato simulacro in fantsia est imaginatio ex hoc elicit aliquid
+            <unclear>intesatum, scilicet in imitiaru</unclear>, similiter per
+            connexionem ex accidentibus devenietur ad cognoscendum quod quid
+            est, ita quod ex accidentibus per hoc quod si faciunt in sensu
+            intellectus accipiat aliquid quod non est accidentale, scilicet
+            ipsum quod quid est, et <unclear>definit</unclear> <del
+            rend="punctuation">i</del> istae viae quia una habet intellectum
+            esseentialem alia autem non.
+          </p>
+          <p xml:id="da-317-l1q2-wxk3o2">
+            Tertio est intelligendum quod potentia aliaqua per se non vadit ad
+            actum, sed oportet quod reducatur per aliud ex
+            <unclear>una</unclear> in actu, unde actus similiter praecedat, unde
+            illud quod reducit potentiam ad actum oportet quidem sit actu tale
+            quale illud fuit in potentia. Anima autem est in potentia ad omnia
+            inteligibilia et ideo non potest produci ad intelligendum per se
+            ipsam, sed per aliquid quod sit in actu, et cum ita est educta est
+            ad actum. Amplius non est virtus passiva sive in potentia, sed magis
+            in actu, et ideo potest sibi aliquid facere quod prius non posset,
+            unde cum anima ita est in actu quod est virtus reflexiva, potest
+            converti et iterare super se upsam, et ita potest intelligere
+            seipsum, non primo actu intelligendi, sed quoniam secundario sive
+            reflexivo.
+          </p>
+        </div>
+        <div ana="#ad-rationes" xml:id="da-317-l1q2-xzoxt2">
+          <p xml:id="da-317-l1q2-u3dgpb" ana="#structure-head">
+            Per haec aliqualiter apparet solutio ad argumenta.
+          </p>
+          <div xml:id="da-317-l1q2-aws2ps">
+            <p xml:id="da-317-l1q2-wbwdqy">
+              Prima cum dicitur <mentioned>De eo quod non est
+              sensibile</mentioned> et cetera, verum est primo actu intelligendi,
+              quia sicut arguitur: intellectus accipit ex fantasmatibus, tamen
+              quia est virtus reflexiva, per reflexionem potest haberi de alio.
+            </p>
+            <p xml:id="da-317-l1q2-3ncbkw">
+              <unclear>Vel</unclear> etiam in aliquibus sive reductione sicut
+              per accidens intelligit substantiam, et cum substantia non cadit
+              in sensu, quia sola accidentia sunt sensibilia. Et ulterius anima
+              intellectiva non est sensibilis, nec per se, nec suas operationes,
+              verum est, et ideo cum concludit quod de ipsa non habetur scientia
+              primo, per intelectum, et hoc est concessum.
+            </p>
+          </div>
+          <p xml:id="da-317-l1q2-nlqlgy">
+            Ad aliud cum dicitur <mentioned>corruptibilium</mentioned> et
+            cetera, dicendum quod rerum non est scientia sub illa ratione sub
+            qua sunt corruptibiles seu
+            <app>
+              <lem type="conjecture-corrected">singulares</lem>
+              <rdg wit="#V">singulari</rdg>
+            </app>
+            , modo singularium non est scientia, quia illis ab entibus ab
+            occulis amplius non haberet in certitudo sicut dicitur, id est
+            metaphysicae et sic non est scientia, quia <del
+            rend="punctuation">siai</del> scientia est habitus intransmutabilis,
+            modo si forma, recedit ab oculo et habeatur de ipso alia operatio
+            quam <unclear>habeatur</unclear>, dum erat praesens. non est
+            scientia quia habitus transmutatur non eadem forte hoc est falsum,
+            quia iam mutatus est scientia autem est habitus verus sed ab istis
+            singularibus corruptibilibus abstrahitur universale, et istrud est
+            incorruptibile, quia illud est incorporale, ut dicitur primo
+            posteriorum, et sub ratione universalis est scientia de rebus
+            propter quod cum dicitur <mentioned>corruptibilium</mentioned> et
+            cetera, <cb ed="#V" n="b"/> verum est sub illa ratione sub qua sunt
+            corruptibilis, sed sub illa ratione sub qua sunt <add
+            place="punctuation">in</add>corruptibilia, et ulterius anima est
+            corruptibilis verum est in singulari et hoc modo non est scientia de
+            illa, sed in universali sub illa ratione sub qua est intelligibilis.
+          </p>
+          <p xml:id="da-317-l1q2-57d00d">
+            Ad aliud est intelligendum quod aliquid esse scitum hoc est
+            duplicitur, aut primo actu intelligendi sive primo intellectu, aut
+            secundario et reflexivo, sive reditivo, si sic primo intellectu hoc
+            modo inter sciens et scitum oportet esse diversitatem realem, per
+            hoc quod unum dicitur respective ad alterum, si reflexivo intellectu
+            non oportet, quia reflexio est alicuius supra ipsum vel supra suum
+            actum, et ideo cum dicitur <mentioned>inter sciens et
+            scitum</mentioned>, oportet esse diversitatem. Verum est si sit
+            scitum primo intellectu. Est ulterius si de anima esset scientia,
+            non esset aliqua diversitas, immo idem esset sciens et scitum, verum
+            est, quia anima non habet scientiam de se ipsa primo intellectu sive
+            primo actu intelligendi, sed per reflexionem et reditionem quandam.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
