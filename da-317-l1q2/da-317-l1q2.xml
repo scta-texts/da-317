@@ -176,18 +176,18 @@
           <div xml:id="da-317-l1q2-9kzo22">
             <p xml:id="da-317-l1q2-s0mxut">
               Considerandum tamen est quod difficultas est in isto et in aliis
-              quantum intellectus consurgit in cognitione quod quid est, et
-              videtur esse <unclear>altera</unclear> istarum duarum viarum ad
-              hoc. Intellectus, <add
-              place="above-line"><unclear>cum</unclear></add> percipit quod ex
-              aliqua re procedunt operationes, tunc facit quandam
-              coniecturationem, et videt in quolibet esse et in quod non, et
-              resolvit illa accidentia <add place="margin-right">in illa</add>
-              et quibus possunt procedere, scilicet in illa principia ex quibus
-              habet causari, et ideo, quia coniecturat in quolibet huius
-              accidentia et in quibus non et sic devenit in cognitionem ipsius
-              quod quid <supplied>est</supplied>, ita quod ex virtute illius rei
-              alias innotescit genus, et ex diversitate accipitur differentia.
+              qualiter intellectus consurgit in cognitione quod quid est, et
+              videtur esse altera istarum duarum viarum ad hoc. Intellectus,
+              <add place="above-line">cum</add> percipit quod ex aliqua re
+              procedunt operationes, tunc facit quandam coniecturationem, et
+              videt in quolibet esse et in quo non, et resolvit illa accidentia
+              <add place="margin-right">in illa</add> ex quibus possunt
+              procedere, scilicet in illa principia ex quibus habet causari, et
+              ideo, quia coniecturat in quolibet huius accidentia et in quibus
+              non, et sic devenit in cognitionem ipsius quod quid
+              <supplied>est</supplied>, ita quod ex virtute illius rei
+              <unclear>alias</unclear> innotescit genus, et ex diversitate
+              accipitur differentia.
             </p>
             <p xml:id="da-317-l1q2-b47eph">
               Est tamen intelligendum quod intellectus habet aliquem
@@ -199,25 +199,24 @@
                   <name ref="#Avicenna">Avicenna</name>
                 </ref>
                 <quote>
-                  intellectus entis <unclear>entis</unclear> in <gap
-                  type="fenestra" extent="5"
-                  unit="characters"/> est dubius
+                  intellectus <sic type="crux">entis entis in <gap
+                  type="fenestra" extent="5" unit="characters"/> est
+                  dubius</sic>
                 </quote>
-                <bibl>???</bibl>
+                <bibl>Avicenna, ???</bibl>
               </cit>
               , et ideo, quia habet intellectum essentialem ex accidentibus,
               potest devenire in cognitionem quod quid est
-              <unclear>ubi</unclear> et illud oportet, id est quod habeat
+              <unclear>nisi</unclear>, et illud oportet, id est quod habeat
               aliquem intellectum essentialem, quia aliter esset abire in
-              <unclear>intellectu</unclear>, sed quia habet intellectum
-              essentialem ex accidentibus in virtute ipsius quod quid est nec
-              est mirum, quia in naturalibus ita est <del
-              rend="punctuation">ita</del> quod accidens <del
-              rend="punctuation">in</del> virtute substantiae generat
-              substantiam, sicut calidum quid agit in virtute ignis, non solum
-              generat calidum sed etiam ignem, et ideo simili modo ex cognitione
-              accipiendo per coniecturationem intellectus consurgit ad
-              cognoscendum quod quid est.
+              <unclear>iusscum</unclear>, sed quia habet intellectum essentialem
+              ex accidentibus in virtute ipsius quod quid est, nec est mirum,
+              quia in naturalibus ita est <del rend="punctuation">ita</del> quod
+              accidens <del rend="punctuation">in</del> virtute substantiae
+              generat substantiam, sicut calidum quid agit in virtute ignis, non
+              solum generat calidum sed etiam ignem, et ideo simili modo ex
+              cognitione accipiendo per coniecturationem intellectus consurgit
+              ad cognoscendum quod quid est.
             </p>
           </div>
           <p xml:id="da-317-l1q2-nzs6l0">
@@ -254,7 +253,7 @@
             est ad actum. Amplius non est virtus passiva sive in potentia, sed
             magis in actu, et ideo potest sibi aliquid facere quod prius non
             posset. Unde cum anima ita est in actu quod est virtus reflexiva,
-            potest converti et iterare super se upsam, et ita potest intelligere
+            potest converti et iterare super se ipsam, et ita potest intelligere
             seipsum, non primo actu intelligendi, sed quoniam secundario sive
             reflexivo.
           </p>
